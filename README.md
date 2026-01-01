@@ -19,4 +19,5 @@ Run the normal test-
 Check - pip list ,Make a requirement.txt
 
 
-![Anurag's GitHub stats](github-readme-stats.vercel.app)
+
+
