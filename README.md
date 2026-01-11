@@ -15,8 +15,11 @@
         ```deactivate```
         
 Run the normal test-
-  ```python test.py```
+ 
 Check - pip list ,Make a requirement.txt
+
+output -        ```pytest test.py```
+
 
 
 
