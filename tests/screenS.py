@@ -1,4 +1,4 @@
-from playwright.sync_api import Playwright, sync_playwright
+from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
     # Launch browser
