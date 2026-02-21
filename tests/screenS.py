@@ -9,7 +9,7 @@ with sync_playwright() as p:
     page.goto("https://example.com")
 
     # Take screenshot
-    page.screenshot(path="example_screenshot.png", full_page=True)
+    page.screenshot(path='results/2example_screenshot.png', full_page=True)
 
     # Close browser
     browser.close()
