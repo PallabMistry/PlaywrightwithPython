@@ -8,6 +8,8 @@ with sync_playwright() as playwright:
     page.get_by_label('email').fill('Pallab@gmail.com')
     page.get_by_label('gender').click()
     page.get_by_label('mobile').fill('980756432')
+    #page.get_by_role( {'Date of Birth:' }).fill('2026-02-26')
+    page.locator('dob').click()
     
 
     browser.close()
